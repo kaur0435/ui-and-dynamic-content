@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ui and dynamic content</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="widget">
+        <header>
+            <div class="masthead">
+                <img class="size" src="./img/shopping-cart.png" alt="shopping cart">
+                <h1>BUY<br>GROCERIES</h1>
+            </div>
+        </header>
+        <div class="box">
+            <p class="buy">What do you need to buy today?</p>
+            <input type="text" id="item" value="" placeholder="your item here">
+            <button id="add">ADD TO LIST</button>
+            <ul id="list"></ul>
+            <p class="error"></p>
+        </div>
+        <footer>
+            <hr>
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.facebook.com">
+                        <i class="fa fa-facebook-square sizef"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com">
+                        <i class="fa fa-instagram sizef"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/">
+                        <i class="fa fa-linkedin-square sizef"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
