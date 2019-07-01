@@ -14,7 +14,7 @@ function addItems() {
     
     if (val.length !== 0) {
         
-     err.innerText = "";
+        err.innerText = "";
         
         // create the list item
         let li = document.createElement("li");
